@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page officielle</title>
+</head>
+<body background="t4.jpg">
+<form method="post" action="">
+    <br>
+    <br>
+    <br>
+    <br>
+<center><font face="agency fb"><font size="10"><b> Formulaire</b></font></font> </center><br>
+    <br>
+    <br>
+    <table width="25%" align="center">
+
+{%csrf_token %} <!-- eliminer les attacke -->
+        {{ form }}
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+           <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+    <tr><td align="right"><input type="submit" value="valider" >   </td>
+         <td align="left"><input type="reset" value="annuler" >   </td></tr>
+
+
+
+
+</table>
+</form>
+</body>
+</html>
